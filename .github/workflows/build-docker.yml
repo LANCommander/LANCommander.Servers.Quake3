@@ -13,7 +13,7 @@ on:
         type: boolean
         default: false
       platforms:
-        description: "Build platforms (comma-separated). Note: Zandronum download is x86_64 by default."
+        description: "Build platforms (comma-separated). Note: ioquake3 download is x86_64 by default."
         required: true
         default: "linux/amd64"
 

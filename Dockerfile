@@ -4,11 +4,8 @@ FROM lancommander/base:latest
 
 ENV IOQUAKE3_URL="https://files.ioquake3.org/Linux.zip"
 
-# Optional: comma/space/newline-separated URLs to fetch at startup into $WADS_DIR
-ENV EXTRA_MOD_URLS="https://files.ioquake3.org/quake3-latest-pk3s.zip"
-
 # Server settings
-ENV START_EXE="ioq3ded.x86_64"
+ENV START_EXE="./ioq3ded.x86_64"
 ENV START_ARGS="+set dedicated 2 +set sv_allowDownload 1 +set sv_dlURL \"\" +set com_hunkmegs 64"
 
 # ----------------------------
