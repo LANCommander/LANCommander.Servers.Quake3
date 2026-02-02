@@ -7,6 +7,9 @@ ENV IOQUAKE3_URL="https://files.ioquake3.org/Linux.zip"
 # Server settings
 ENV START_EXE="./ioq3ded.x86_64"
 ENV START_ARGS="+set dedicated 2 +set sv_allowDownload 1 +set sv_dlURL \"\" +set com_hunkmegs 64"
+ENV HTTP_FILESERVER_ENABLED="true"
+ENV HTTP_FILESERVER_WEB_ROOT="/config/Merged"
+ENV HTTP_FILESERVER_FILE_PATTERN="^/.*\.(pk3|arena|bot|jpg|tga|wav|ogg)$"
 
 # ----------------------------
 # Dependencies
