@@ -49,7 +49,7 @@ services:
     ├── Server/            # Base ioquake3 install
     │   └── baseq3/        # Quake 3 game files base directory
     ├── Overlay/           # Files to overlay on game directory (optional)
-    │   └── baseq3/        # Counter-Strike: Source overlay directory
+    │   └── baseq3/        # Quake 3 overlay directory
     │       ├── maps/      # Custom maps
     │       └── ...        # Any other files you want to overlay
     ├── Merged/            # Overlayfs merged view (auto-created)
